@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML FORMS</title>
+</head>
+<body>
+  <h2>HTML FORMS</h2>
+  <form>
+<label for="fname">First Name</label>
+<input type="=text" name="fname" id="Full Name"><br><br>
+<label for="Age">Age</label>
+<input type="text" name="Age" id="Age"><br><br>
+<label for="date">Date Of Birth</label>
+<input type="number" name="date" id="date"><br><br>
+<label for="PhoneNumber">Phone Number</label>
+<input type="text" name="PhoneNumber" id="PhoneNumber" placeholder="123-123456-789" pattern="[0-9]3-[0-9]6-[0-9]3"><br><br>
+
+<h3>Country of Residence</h3>
+<label for="Country">Country</label>
+<select id="Contry" name="country">
+<option value="=Gh">Ghana </option>
+<option value="Tn" selected>Tunisia </option>
+<option value="Et">Ethiopia</option>
+<option value="Ug">Uganda</option>
+<option value="Russia">Russia</option>
+<option value="Ukr">Ukraine</option>
+<option value="Zim">Zimbabwe</option>
+</select>
+<h3>Gender</h3>
+<label for="Gender">Male</label>
+
+<input type="radio" name="Gender" id="Male">
+<label for="Female">Female</label>
+  <input type="radio" name="Gender" id="Female">
+  <label for="Other">Other</label>
+  <input type="radio" name="Gender" id="Other">
+  <h3>Hobbies</h3>
+<label for="Reading">Reading</label>
+  <input type="checkbox" ><br>
+  <label for="Sports">Sports</label>
+  <input type="checkbox"><br>
+  <label for="Travelling">Travelling</label>
+  <input type="checkbox"><br>
+  <label for="Music">Music</label>
+  <input type="checkbox"><br>
+<label for="Comment">Comment</label>
+<textarea id="comment" rows="8"></textarea>
+
+<button>Submit</button>
+
+
+  </form>
+</body>
+</html>
